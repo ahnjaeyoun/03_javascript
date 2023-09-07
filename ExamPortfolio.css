@@ -1,0 +1,429 @@
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text&family=Delicious+Handrawn&family=Inconsolata:wght@200&family=Josefin+Sans:ital,wght@0,100;1,100&family=Joti+One&family=Just+Another+Hand&family=Playfair+Display&display=swap');
+
+@font-face {
+    font-family: 'HakgyoansimGaeulsopungB';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2307-2@1.0/HakgyoansimGaeulsopungB.woff2') format('woff2');
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'GoryeongStrawberry';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2304-01@1.0/GoryeongStrawberry.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+#Desktop-1 {
+    width: 1440px;
+    height: 1024px;
+    display: flex;
+    flex-direction: column;
+    background-size: cover;
+    background-image: url(/images/exam-image/커피\ 키보드.jpg);
+}
+
+#nav1 {
+    display: flex;
+    flex-basis: 10%;
+    justify-content: end;
+    position: sticky;
+    top: 10px;
+}
+
+#nav1 > button {
+    width: 165px;
+    height: 45px;
+    margin: 50px;
+    background-color: rgba(68, 54, 54, 0.6);
+    border-radius: 20px;
+    border: none;
+    font-size: 25px;
+    font-family: 'Delicious Handrawn', cursive;
+    color: rgba(148, 197, 212, 0.8);
+    transition-duration: 0.3s;
+}
+
+#nav1 > button:hover {
+    font-size: xx-large;
+    color: #FFFFFF;
+    background: #333333;
+    text-shadow: 0 -1px 4px #FFF, 0 -2px 10px #ff0, 0 -10px 20px #ff8000, 0 -18px 40px #F00;
+    border: 1px solid white;
+    cursor: pointer;   
+}
+
+
+#main1 {
+    display: flex;
+    flex-basis: 90%;
+    flex-direction: column;
+}
+
+#profile {
+    width: 400px;
+    height: 400px;
+    object-fit: cover;
+}
+
+#profile-container {
+    width: 400px;
+    height: 400px;
+    overflow: hidden;
+    background-color: white;
+    border-radius: 70%;
+    margin-right: 100px;   
+}
+
+#main1-top {
+    flex-basis: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#welcome {
+    width: 750px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 50px;
+    background-color: rgba(68, 54, 54, 0.6);
+    border-radius: 40px;
+    color: rgba(73, 180, 83, 0.9);
+    font-family: 'Crimson Text', serif;
+    font-size: 40px;
+}
+
+#main1-bottom {
+    flex-basis: 50%;
+    display: flex;
+}
+
+#main1-bottom-leftBox {
+    flex-basis: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+}
+
+#main1-bottom-rightBox {
+    flex-basis: 50%;
+}
+
+#main1-bottom-leftBox > button {
+    width: 240px;
+    height: 60px;
+    margin: 35px;
+    background-color: rgba(61, 20, 28, 0.4);
+    border-radius: 20px;
+    color: white;
+    font-family: 'Joti One', cursive;
+    font-size: 30px;
+    border: none;
+    transition-duration: 0.5s;
+}
+
+#main1-bottom-leftBox > button > a {
+    text-decoration-line: none;
+    color: white;
+}
+
+#main1-bottom-leftBox > button:hover {
+    color: #FFFFFF;
+    background: #333333;
+    text-shadow: #FFF 0px 0px 5px, #FFF 0px 0px 10px, #FFF 0px 0px 15px, #FF2D95 0px 0px 20px, #FF2D95 0px 0px 30px, #FF2D95 0px 0px 40px, #FF2D95 0px 0px 50px, #FF2D95 0px 0px 75px;
+    cursor: pointer;
+    font-size: xx-large;
+    border: 1px solid whitesmoke;
+}
+
+#Desktop-2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 1440px;
+    height: 1024px;
+    background-size: cover;
+    background-image: url(/images/exam-image/desk2.jpg);   
+}
+
+#main2 {
+    width: 1260px;
+    height: 930px;
+    display: flex;
+    flex-direction: column;    
+}
+
+#main2-top {
+    flex-basis: 10%;
+    display: flex;
+    position: sticky;
+    top: 10px;
+}
+
+#main2-center {
+    flex-basis: 40%;
+    display: flex;    
+}
+
+#main2-bottom {
+    flex-basis: 50%;
+    display: flex;
+}
+
+#main2-top-box {
+    width: 270px;
+    height: 80px;
+    background-color: rgba(237, 120, 169, 0.5);
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    font-family: 'Delicious Handrawn', cursive;    
+}
+
+#main2-center-box {
+    width: 890px;
+    height: 360px;
+    background-color: rgba(243, 220, 185, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+    border-radius: 20px;   
+}
+
+#main2-center-textBox {
+    width: 750px;
+    height: 300px;
+    background-color: transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'HakgyoansimGaeulsopungB';
+    font-size: 30px;
+    word-spacing: 7px;
+    line-height: 50px;
+}
+
+#main2-bottom {
+    display: flex;
+    justify-content: right;
+}
+
+#main2-bottom-box {
+    flex-basis: 40%;
+    display: flex;
+    margin-right: 20px;
+    height: 380px;
+    background-color: rgba(217, 217, 217, 0.7);
+    justify-content: center;
+    align-items: center;
+}
+
+#main2-bottom-TIBox {
+    display: flex;
+    
+    width: 400px;
+    height: 300px;
+}
+
+#main2-bottom-iconBox, #main2-bottom-textBox {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.icon-box {
+    margin: 18px;
+}
+
+#main2-bottom-textBox > span {
+    font-family: 'GoryeongStrawberry';
+    margin: 18px;
+}
+
+#Desktop-3 {
+    width: 1440px;
+    height: 1024px;
+    background-size: cover;
+    background-image: url(/images/exam-image/desk3.jpg);
+    display: flex;
+    flex-direction: column;
+}
+
+#Desktop-3-header {
+    flex-basis: 10%;
+    display: flex;
+    align-items: center;
+    position: sticky;
+    top: 10px;
+}
+
+#AL {
+    width: 350px;
+    height: 90px;
+    background-color: rgba(88, 105, 197, 0.7);
+    border-radius: 30px;
+    font-family: 'Delicious Handrawn', cursive;
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 60px;
+    margin-top: 30px;
+    
+}
+
+#Desktop-3-main {
+    flex-basis: 90%;
+    display: flex;
+}
+
+#Desktop-3-main-left {
+    flex-basis: 15%;
+    display: flex;
+    flex-direction: column;
+
+}
+
+#Desktop-3-main-left2 {
+    flex-basis: 15%;
+    display: flex;
+    flex-direction: column;
+}
+
+#Desktop-3-main-right {
+    flex-basis: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#Desktop-3-main-left > img {
+    width: 180px;
+    height: 180px;
+    margin-left: 30px;
+    margin-top: 30px;
+}
+
+#Desktop-3-main-left2 > img {
+    width: 180px;
+    height: 180px;
+    margin-left: 10px;
+    margin-bottom: 50px;
+}
+
+#Desktop-3-main-left2 > img:nth-of-type(1) {
+    margin-top: 120px;
+}
+
+#graph {
+    width: 850px;
+    height: 740px;
+    background-color: rgba(217, 217, 217, 0.8);
+    display: flex;
+    align-items: end;
+    border-radius: 10px;
+}
+
+#graph > div {
+    display: flex;
+    flex-direction: column-reverse;
+    background-color: rgb(73, 84, 177);
+    width: 35px;
+    margin-right: 84px;
+}
+
+#graph > div:nth-of-type(1) {
+    height: 80%;
+    margin-left: 40px;
+}
+
+#graph > div:nth-of-type(2) {
+    height: 50%;
+}
+
+#graph > div:nth-of-type(3) {
+    height: 75%;
+}
+
+#graph > div:nth-of-type(4) {
+    height: 60%;
+}
+
+#graph > div:nth-of-type(5) {
+    height: 50%;
+}
+
+#graph > div:nth-of-type(6) {
+    height: 50%;
+}
+
+#graph > div:nth-of-type(7) {
+    height: 30%;
+}
+
+#graph-title {
+    width: 850px;
+    height: 50px;
+    background-color: rgba(169, 76, 171, 0.2);
+    border-radius: 10px;
+    display: flex;
+}
+
+#graph-title > button {
+    border: none;
+    background-color: transparent;
+    margin-right: 50px;
+    font-family: 'Playfair Display', serif;
+    font-size: 20px;
+    transition-duration: 0.5s;
+}
+
+#graph-title > button:nth-of-type(1) {
+    margin-left: 35px;
+    margin-right: 60px;
+}
+
+#graph-title > button:nth-of-type(3) {
+    margin-left: 10px;
+}
+
+#graph-title > button:nth-of-type(4) {
+    margin-right: 30px;
+}
+
+#graph-title > button:nth-of-type(5) {
+    margin-right: 60px;
+}
+
+#graph-title > button:nth-of-type(7) {
+    margin-left: 10px;
+}
+#graph-title > button:hover {
+    cursor: pointer;
+    font-size: x-large;
+    color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
